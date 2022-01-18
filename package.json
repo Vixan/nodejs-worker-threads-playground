@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-worker-threads",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node load-test.js",
+    "test-workers": "node load-test-workers.js"
+  },
+  "keywords": [],
+  "author": "Duca Vitalie-Alexandru",
+  "license": "ISC",
+  "dependencies": {
+    "autocannon": "^7.5.0",
+    "fastify": "^3.24.0",
+    "fastify-file-upload": "^3.0.1",
+    "workerpool": "^6.1.5"
+  }
+}

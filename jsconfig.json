@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "allowJs": true,
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules"]
+}
